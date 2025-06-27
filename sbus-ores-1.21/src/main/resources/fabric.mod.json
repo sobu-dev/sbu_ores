@@ -3,13 +3,13 @@
 	"id": "sbu_ores",
 	"version": "${version}",
 	"name": "SBU's Ores",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This mod adds a variety of new ores and new features such as infected ores. It also adds the tools.",
 	"authors": [
-		"Me!"
+		"SBU"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/sobu-dev/sbu_ores"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/sbu_ores/icon.png",
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"sbu.sbu_ores.SBUsOresDataGenerator"
+		],
+		"client": [
+			"sbu.sbu_ores.SBUsOresClient"
 		]
 	},
 	"mixins": [
